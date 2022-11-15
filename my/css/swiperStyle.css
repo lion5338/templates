@@ -1,0 +1,214 @@
+.foodSwiper {
+    width: 100%;
+    /* height: 100%; */
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foodSwiperSlide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(249, 249, 249);
+    /* height: calc((100% -rem) / 2) !important; */
+    height: 4.5rem !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.bannerImg {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .bannerImgMobile {
+    background-size: 100% 27rem;
+    background-repeat: no-repeat;
+  }
+  
+  .partnerSwiper {
+    width: 100%;
+    height: 10rem;
+  }
+  
+  .partnerSwiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .aboutSwiper {
+    width: 100%;
+    height: 35rem;
+  
+  }
+  
+  .aboutSwiperM {
+    width: 100%;
+    height: 15rem;
+  }
+  
+  .aboutSwiper-slide {
+  
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .aboutSwiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .aboutBannerContainer {
+    position: relative;
+    text-align: center;
+  }
+  
+  .centeredLeftM {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centeredRightM {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centeredLeft {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centeredRight {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .viewMenuSwiper {
+    width: 100%;
+    height:50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .viewMenuSwipe-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 40px) / 2) !important;
+    /* //height: 10rem; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .viewMenuSwipe-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+
+  .viewMenuSwiperM {
+    width: 100%;
+    height: 20rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  
+  .viewMenuSwipe-slideM {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 40px) / 2) !important;
+   
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .viewMenuSwipe-slideM img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    border-radius: 1rem;
+  }

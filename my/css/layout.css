@@ -1,0 +1,153 @@
+.mainContainer {
+    min-height: 120vh;
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    left: 0;
+}
+
+
+/* 文字置中(在container設置)
+<div style="text-align: center;">
+    <span >免費註冊</span> 
+</div>
+
+*/
+
+.centerText {
+    text-align: center;
+}
+
+.centerVertical {
+    vertical-align: middle;
+}
+
+
+/* border樣式 */
+
+.grooveBorder {
+    border-style: groove;
+}
+
+.solidBorder {
+    border-style: solid;
+}
+
+
+/* border width */
+
+.regularBorderWidth {
+    border-width: 0.1rem;
+}
+
+.thickBorderWidth {
+    border-width: 0.15rem;
+}
+
+.slimBorderWidth {
+    border-width: 0.05rem;
+}
+
+
+/* border radius */
+
+
+/* 邊緣設定 */
+
+
+/* .regularRadius {
+    border-radius: 2rem;
+} */
+
+.regularBorderRadius {
+    border-radius: 2rem;
+}
+
+.smallBorderRadius {
+    border-radius: 1rem;
+}
+
+.tinyBorderRadius {
+    border-radius: 0.75rem;
+}
+
+
+/* 並排顯示
+使用flex
+.flex-container {
+    display: flex | inline-flex;
+    flex-direction: row | row-reverse | column | column-reverse;
+    flex-wrap: nowrap | wrap | wrap-reverse;
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+     align-items: flex-start | flex-end | center | baseline | stretch;
+}
+*/
+
+.sideBySide {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* 並排顯示 use inline-block */
+
+.inlineContainer {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+    height: auto;
+    border-bottom: 1px solid #000;
+    margin: 2px;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 5px;
+}
+
+
+/* 滿版 */
+
+.fullSize {
+    width: 100%
+}
+
+
+/* align text below an image  */
+
+.textUnderImage {
+    display: block;
+}
+
+.textUnderImageContainer {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+/* How to place text over an image: */
+
+.textOverContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  
+  .top-lefttextOver {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-righttextOver {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+ 
+  
+ 

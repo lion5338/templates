@@ -1,0 +1,148 @@
+
+/* Pc profile upper */
+
+ 
+.currentPage {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.pageOption1 {
+    position: absolute;
+    top:87.5%;
+    left: 10%;
+}
+.pageOption2 {
+    position: absolute;
+    top:87.5%;
+    left: 25%;
+}
+
+.underline1 {
+    position: absolute;
+    bottom:0%;
+    left: 10%;
+}
+.underline2 {
+    position: absolute;
+    bottom:0%;
+    left: 25%;
+}
+
+
+/* Pc profile bottom */
+
+ 
+.currentPageBottom {
+    position: absolute;
+    top: 8%;
+    left:17%;
+}
+.formTitle{
+    position: absolute;
+    top: 5%;
+    left:-40%;
+}
+.saveButton{
+    position: absolute;
+    top:28%;
+    left:65%;
+}
+.cancelButton{
+    position: absolute;
+    top: 28%;
+    left:50%;
+}
+.underlineForm{
+    position: absolute;
+    top: 90%;
+    left:0%;
+}
+
+   
+
+ 
+
+/* Mobile profile upper */
+
+ 
+.currentPageM {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.pageOption1M {
+    position: absolute;
+    top:60%;
+    left: 10%;
+}
+.pageOption2M {
+    position: absolute;
+    top:60%;
+    left: 45%;
+}
+
+.underline1M {
+    position: absolute;
+    bottom:0%;
+    left: 10%;
+}
+.underline2M {
+    position: absolute;
+    bottom:0%;
+    left: 45%;
+}
+
+
+/* Mobile profile bottom */
+
+ 
+.currentPageBottomM1 {
+    position: absolute;
+    top: 0%;
+    left:38%;
+}
+.currentPageBottomM2 {
+    position: absolute;
+    top: 0%;
+    left:28%;
+}
+
+.underlineFormM{
+    position: absolute;
+    top: 90%;
+    left:0%;
+}
+
+.closeButton {
+    top: 1.5vh;
+    left: 1.5vh;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    width: 1.5rem
+}
+
+.checkButton {
+    top: 1.5vh;
+    right: 1.5vh;
+    position: absolute;
+    transform: translate(70%, -50%);
+    width: 1.5rem
+}
+.closeButtonM {
+    top: 0.5vh;
+    left: 0.5vh;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    width:1.25rem
+}
+
+.checkButtonM {
+    top: 0.5vh;
+    right:  0.5vh;
+    position: absolute;
+    transform: translate(70%, -50%);
+    width:1.25rem
+}

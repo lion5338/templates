@@ -1,0 +1,94 @@
+/* animation */
+
+
+/* sink when mouse hover */
+
+.sink-on-hover {
+    -webkit-transform: perspective(1rem) translateZ(0);
+    transform: perspective(1rem) translateZ(0);
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.sink-on-hover:hover,
+.sink-on-hover:focus,
+.sink-on-hover:active {
+    -webkit-transform: translateY(0.25rem);
+    transform: translateY(0.25rem);
+}
+
+.fadeFromRight-enter-from {
+    opacity: 0;
+    transform: translateX(25rem);
+}
+
+.fadeFromRight-enter-active {
+    transition: all 0.15s ease-out;
+}
+
+.fadeFromRight-leave-to {
+    opacity: 1;
+    transform: translateX(-25rem);
+}
+
+.fadeFromRight-enter-active {
+    transition: all 0.3s ease-in;
+}
+
+.fadeFromLeft-enter-from {
+    opacity: 0;
+    transform: translateX(-25rem);
+}
+
+.fadeFromLeft-enter-active {
+    transition: all 0.15s ease-out;
+}
+
+.fadeFromLeft-leave-to {
+    opacity: 1;
+    transform: translateX(25rem);
+}
+
+.fadeFromLeft-enter-active {
+    transition: all 0.3s ease-in;
+}
+
+.dropDown-enter-from {
+    opacity: 0;
+    transform: translateY(-10rem);
+}
+
+.dropDown-enter-active {
+    transition: all 0.5s ease-out;
+}
+
+.dropDown-leave-to {
+    opacity: 1;
+    transform: translateY(10rem);
+}
+
+.dropDown-enter-active {
+    transition: all 0.5s ease-in;
+}
+
+.moveUp-enter-from {
+    opacity: 0;
+    transform: translateY(10rem);
+}
+
+.moveUp-enter-active {
+    transition: all 0.5s ease-out;
+}
+
+.moveUp-leave-to {
+    opacity: 1;
+    transform: translateY(-10rem);
+}
+
+.moveUp-enter-active {
+    transition: all 0.5s ease-in;
+}

@@ -1,0 +1,70 @@
+.sloganContainer {  display: grid;
+    grid-template-columns:1fr 3.5fr 14fr 3.5fr 1fr;
+    grid-template-rows: 1.5fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". leftImg sloganTitle . ."
+      ". . sloganMessage . ."
+      ". . sloganButtons . .";
+  }
+  
+  .sloganTitle { grid-area: sloganTitle; }
+  
+  .sloganMessage { grid-area: sloganMessage;justify-content:space-around }
+  
+  .sloganButtons { grid-area: sloganButtons; }
+  
+  .leftImg {  display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "actionImg actionImg actionImg"
+      "arrowImg arrowImg arrowImg";
+    grid-area: leftImg;
+  }
+  
+  .actionImg { grid-area: actionImg; }
+  
+  .arrowImg { grid-area: arrowImg; }
+  
+  .yellow{
+    color: #FFB900;
+    background: none;
+   
+  }
+  .red{
+    color: #FF5454;
+    background: none;
+   
+  }
+
+  /* mobile layout */
+
+  .sloganContainerM {  display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 3fr 1fr 2fr 2fr  ;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "actionImgM sloganTitleM ."
+      
+      "actionImgM sloganContentM ."
+      ". sloganContentM ."
+    
+      ". sloganButtonM ."
+     
+  }
+  
+  .actionImgM { grid-area: actionImgM; }
+  
+  .sloganTitleM { grid-area: sloganTitleM; }
+  
+  .sloganContentM { grid-area: sloganContentM; }
+  
+  .sloganButtonM { grid-area: sloganButtonM; }
+  
+  

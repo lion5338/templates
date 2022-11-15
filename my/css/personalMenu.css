@@ -1,0 +1,113 @@
+
+/* How to  text over an image: */
+
+ 
+  .topLeftOver {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .midLeftOver {
+    position: absolute;
+    top: 47.5%;
+    left: 10%;
+  }
+  .topRightOver {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+   
+  .bottomLeftOverOption1 {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+  }
+     
+  .bottomLeftOverOption2 {
+    position: absolute;
+    bottom: 5%;
+    left: 23%;
+  }
+     
+  .bottomLeftOverOption3 {
+    position: absolute;
+    bottom: 5%;
+    left: 36%;
+  }
+  .bottomLeftOverName {
+    position: absolute;
+    bottom:25%;
+    left: 20%;
+  }
+  .bottomLeftOverLocation {
+    position: absolute;
+    bottom:22.5%;
+    left: 20%;
+  }
+  .bottomRightOverQRCODE {
+    position: absolute;
+    bottom:5%;
+    left: 81.25%;
+  }
+  .bottomRightOverOption1 {
+    position: absolute;
+    bottom:28%;
+    left: 80%;
+  }
+
+  .topLeftOver {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .midLeftOverM {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+  }
+  .topRightOverM {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+   
+  .bottomLeftOverOption1M {
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+  }
+     
+  .bottomLeftOverOption2M {
+    position: absolute;
+    bottom: 20%;
+    left: 37.25%;
+  }
+     
+  .bottomLeftOverOption3M {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+  }
+  .bottomLeftOverOption4M {
+    position: absolute;
+    bottom: 5%;
+    left: 37.25%;
+  }
+  .bottomLeftOverNameM {
+    position: absolute;
+    bottom:45.5%;
+    left: 25%;
+  }
+  .bottomLeftOverLocationM {
+    position: absolute;
+    bottom:37.5%;    
+    left: 20%;
+  }
+  .bottomRightOverQRCODEM {
+    position: absolute;
+    bottom:5%;
+    left: 70%;
+  }
+ 
+

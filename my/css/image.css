@@ -1,0 +1,46 @@
+.noRepeat {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fullIcon {
+    width: 100%;
+}
+
+.miniIcon {
+    /* miniFeatureIcon */
+    width: 1rem;
+}
+
+.miniIcon {
+    width: 0.85rem;
+}
+
+.tinyIcon {
+    width: 1rem;
+}
+
+.smallIcon {
+    /* smallFeatureIcon  */
+    width: 1.5rem;
+}
+
+.midIcon {
+    /* featureIcon */
+    width: 2rem;
+}
+
+.largeIcon {
+    /*midFeatureIcon */
+    width: 3rem;
+}
+
+.extraLargeIcon {
+    /* bigFeatureIcon */
+    width: 4rem;
+}
+
+.doubleExtraLargeIcon {
+    width: 5.5rem;
+}

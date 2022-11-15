@@ -1,0 +1,72 @@
+/* 字體 */
+
+.fontType {
+    font-family: "Comic Sans MS", "Arial", "黑體-繁", "微軟正黑體", sans-serif;
+}
+
+.fontType2 {
+    font-family: "Poppins", sans-serif;
+}
+
+/* 粗體 */
+
+.boldText {
+    font-weight: bold;
+}
+
+
+/* 底線 */
+
+.underLined {
+    text-decoration: underline;
+}
+
+
+/* 大小 */
+
+.microText {
+    font-size: 0.4rem;
+}
+
+.miniText {
+    font-size: 0.55rem;
+}
+
+.tinyText {
+    font-size: 0.7rem;
+}
+
+.smallText {
+    font-size: 0.85rem;
+}
+
+.regularText {
+    font-size: 1rem;
+}
+
+.midText {
+    font-size: 1.15rem;
+}
+
+.bigText {
+    font-size: 1.3rem;
+}
+
+.largeText {
+    font-size: 1.45rem;
+}
+
+.XLText {
+    font-size: 1.6rem;
+}
+
+.XXLText {
+    font-size: 1.75rem;
+}
+
+.XXXLText {
+    font-size: 1.9rem;
+}
+.XXXXLText {
+    font-size: 2rem;
+}
